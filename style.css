@@ -18,3 +18,43 @@ p {
 .unique-color{
     color: rgb(0, 255, 221);
 }
+
+.spicy{}
+
+a.spicy::after{
+    content: url(additional_resources/spicy.svg);
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.recipe_list{
+    display: block;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 15px;
+    border: solid 2px;
+    background-color: bisque;
+}
+
+.recipe_item{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin: 8px;
+    padding: 8px;
+    padding-top: 20px;
+    border: solid 1px;
+    background-color: rgb(241, 184, 114);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.recipe_item:hover{
+    background-color: rgb(241, 233, 223);
+}
